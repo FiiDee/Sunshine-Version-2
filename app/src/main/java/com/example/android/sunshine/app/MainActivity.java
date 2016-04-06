@@ -62,6 +62,7 @@ public class MainActivity extends ActionBarActivity {
             View rootView = inflater.inflate(R.layout.fragment_main, container, false);
 
             //Fake data to create list in
+
             String[] forecastArray=  {
                     "Today - Sunny - 88/63",
                     "Tomorrow - Cloudy -50/50",
@@ -74,9 +75,12 @@ public class MainActivity extends ActionBarActivity {
 
             };
 
+            
             List<String> weekForecast=new ArrayList<String>(
                     Arrays.asList(forecastArray)
             );
+
+
             return rootView;
         }
     }
