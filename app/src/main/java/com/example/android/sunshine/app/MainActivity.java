@@ -77,7 +77,6 @@ public class MainActivity extends ActionBarActivity {
             List<String> weekForecast=new ArrayList<String>(
                     Arrays.asList(forecastArray)
             );
-            
             return rootView;
         }
     }
